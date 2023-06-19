@@ -1,0 +1,33 @@
+#hoverbg:hover{
+    background-color: rgb(142, 217, 242);
+    border-radius: 10px;
+}
+
+.mainBackground {
+    background-image: url("https://beta.ctvnews.ca/content/dam/ctvnews/images/2020/2/20/1_4820983.jpg?cache_timestamp=1582240247414");
+    /* display: grid; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.mainBackground>h2 {
+    font-family: cursive;
+}
+
+.mainBackground>p {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px blue, 0 0 1em black, 0 0 0.2em blue;
+}
+
+button {
+    font-weight: bolder;
+    font-size: medium;
+    background-color: pink;
+    color: #fff;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
