@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+<body style="overflow: scroll; background-color: #7ac0f3;">
+    <header style="margin-bottom: 5rem;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #7ac0f3; position: fixed; top: 0; width: 100vw;">
             <div class="container-fluid">
-                <nav class="navbar bg-body-tertiary" id="hoverbg" >
+                <nav class="navbar bg-body-tertiary" id="hoverbg">
                     <div class="container-fluid">
                         <a class="navbar-brand"
                             style="display: flex; justify-content: center; align-items: center; padding: 4px; grid-gap: 10px;"
@@ -35,7 +35,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" style="font-weight: bold; font-size:x-large;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -48,7 +48,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                choice
+                                Choice
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Man</a></li>
@@ -68,19 +68,66 @@
         </nav>
     </header>
 
+    <main>
 
-    <div class="mainBackground">
-        <div>
-            <h2>Get Very Modern <br>Fashion In <br>The Persent</h2>
-            <p>"Discover, Buy, Enjoy: The Ultimate Online Shopping Experience"</p>
-            <button>SHOP NOW</button>
-        </div>
-    </div>
+        <section>
+            <div class="mainBackground">
+                <div id="content">
+                    <div>
+                        <div>
+                            <h2><b>Get Very Modern Fashion In The Persent</b></h2>
+                        </div>
+                        <div>"Discover, Buy, Enjoy: The Ultimate Online Shopping Experience"</div>
+                    </div>
+                    <button id="ShopBtn">SHOP NOW</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="choiceContainer">
+                <div id="Females">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.liveabout.com/thmb/i6Gl0us-vFA2Sbbsu5VpS-LfT1g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1-FashionJackson-5c59b194c9e77c00016b419e.jpg"
+                            class="card-img-top" height="400vh" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">
+                                <h5 class="card-title">Women's Wear</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Kids">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12769350/2022/8/17/bac1be3a-86a8-4bee-924c-9e33822895d81660739209799CutiekinsGirlsPeach-ColouredGreenPrintedTopwithPalazzos1.jpg"
+                            height="400vh" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">
+                                <h5 class="card-title">Kid's Wear</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="Male">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                            class="card-img-top" height="400vh" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">
+                                <h5 class="card-title">Men's Wear</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
 
 
+    </main>
 </body>
 
 </html>
