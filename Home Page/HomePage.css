@@ -1,0 +1,91 @@
+nav.navbar {
+    z-index: 999;
+}
+
+.btn-outline-success {
+    color: white;
+    border: 2px solid green;
+    background-color: green;
+}
+
+
+.btn-outline-success:hover {
+    color: green;
+    background-color: #fff;
+}
+
+
+.mainBackground {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/rack-colorful-clothes-with-blue-background_1340-37474.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: .5rem;
+    height: 90vh;
+    color: rgb(86, 98, 226);
+    font-weight: bolder;
+}
+
+
+#content>div {
+    padding: 10px;
+    background-color: white;
+    color: rgb(74, 153, 210);
+    margin-bottom: 5rem;
+}
+
+#ShopBtn {
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: #4a99d2;
+    color: white;
+    border: 1px solid #4a99d2;
+}
+
+#ShopBtn:hover {
+    background-color: pink;
+    border: 1px solid pink;
+    color: rgba(0, 0, 0, 0.852);
+}
+
+.choiceContainer {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-gap: 2rem;
+}
+
+.card-body {
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width :300px) and (max-width:500px) {
+    #content>div {
+        margin: .1rem;
+        background-color: white;
+        color: rgb(74, 153, 210);
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width :300px) and (max-width:900px) {
+    .mainBackground {
+        height: 40vh;
+    }
+}
+
+
+.card{
+    cursor: pointer;
+}
+
+.nav-link{
+    color: white;
+}
