@@ -1,0 +1,153 @@
+body {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  #MensWearHeader {
+      display: grid;
+      justify-content: center;
+      background-color: #F86F03;
+      position: fixed;
+      top: 0px;
+      width: 100vw;
+      z-index: 999;
+  }
+  
+  .nav-link {
+      font-weight: bold;
+      font-size: x-large;
+      color: white;
+  }
+  
+  .nav-link:hover {
+      text-decoration: double underline rgb(108, 232, 108);
+      text-decoration-thickness: 3px;
+  }
+  
+  .btn-outline-success {
+      cursor: pointer;
+      font-size: large;
+      font-weight: bolder;
+      border: 3px solid;
+  }
+  
+  section {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #525FE1;
+      margin-top: 122px;
+      justify-content: center;
+  }
+  
+  .kids-wears {
+      margin: 60px;
+      width: 300px;
+      height: 300px;
+      cursor: pointer;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      font-size: x-large;
+      font-weight: bolder;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgba(255, 255, 255, 0);
+      transition: all .3s cubic-bezier(.68,-0.55,.27,1.55);
+      z-index: 1;
+      margin-top: -7px;
+  }
+  
+  .hover-container {
+      display: grid;
+      justify-content: center;
+      width: 320px;
+      height: 323px;
+      border-radius: 10px;
+      margin: 32px;
+      overflow: hidden;
+  }
+  
+  .hover-container:hover{
+      background: linear-gradient(50deg, #F86F03, #F86F03);
+  }
+  
+  .hover-container::before {
+      content: "";
+      position: relative;
+      top: 67px;
+      right: -22px;
+      transition: 3;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20%;
+      height: 19px;
+      width: 378px;
+      animation: rotate 1s linear infinite;
+      transform: translate(0, -100px);
+      
+  }
+  
+  .hover-container:hover::before {
+      background: linear-gradient(50deg, rgb(108, 232, 108), rgb(108, 232, 108));
+      animation: cardeffect 1.9s infinite;
+  }
+  
+  @keyframes cardeffect {
+      100% {
+          transform:translate(0, 280px);
+      }
+  }
+  
+  #MensWear-page-Shirt {
+      background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
+      background-size: cover;
+  }
+  
+  
+  #MensWear-page-Jeans {
+      background-image: url("https://img.fruugo.com/product/2/03/193809032_max.jpg");
+      background-size: cover;
+  }
+  
+  #MensWear-page-Shoes {
+      background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90");
+      background-size: cover;
+  }
+  
+  #MensWear-page-Tracks {
+      background-image: url("https://assets.ajio.com/medias/sys_master/root/20230321/BuVo/64195207aeb26924e3e08f23/-473Wx593H-465738985-black-MODEL.jpg");
+      background-size: cover;
+  }
+  
+  #MensWear-page-Tshirts {
+      background-image: url("https://4.imimg.com/data4/AA/HC/MY-26596027/men-s-fancy-t-shirt-500x500.jpg");
+      background-size: cover;
+  }
+  
+  #MensWear-page-Watch {
+      background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg");
+      background-size: cover;
+  }
+  
+  section>div>:hover {}
+  
+  
+  @media (min-width:800px) and (max-width:900px) {
+      section>div {
+          margin: 40px;
+      }
+  }
