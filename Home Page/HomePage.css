@@ -1,105 +1,232 @@
 body {
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+nav.navbar {
+  z-index: 999;
+}
+
+.btn-outline-success {
+  color: white;
+  border: 2px solid green;
+  background-color: green;
+}
+
+.btn-outline-success:hover {
+  color: green;
+  background-color: #fff;
+}
+
+.mainBackground {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-photo/rack-colorful-clothes-with-blue-background_1340-37474.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: .5rem;
+  height: 90vh;
+  color: rgb(86, 98, 226);
+  font-weight: bolder;
+}
+
+#content>div {
+  padding: 10px;
+  color: rgb(74, 153, 210);
+  margin-bottom: 5rem;
+  background-color: #ffffffe0;
+}
+
+
+.hover-container::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  width: 290px;
+  transform: scaleY(0);
+  background: linear-gradient(50deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  transition: transform .4s ease;
+}
+
+.hover-container:hover::before {
+  height: 428px;
+  transform: scaleY(1);
+  content: "Men's wear";
+  text-align: center;
+  color: #F86F03;
+  letter-spacing: 2px;
+  display: grid;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px #4a99d2, 0 0 1em #4a99d2, 0 0 0.2em #4a99d2;
+  border-radius: 5px;
+}
+
+#Females:hover::before {
+  content: "Women's wear";
+}
+
+#Kids:hover::before {
+  content: "Kid's wear";
+}
+
+@keyframes cardeffect {
+  100% {
+    transform: translate(0, 300px);
   }
-  
-  body::-webkit-scrollbar {
-    width: 1px;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  
-  nav.navbar {
-    z-index: 999;
-  }
-  
-  .btn-outline-success {
-    color: white;
-    border: 2px solid green;
-    background-color: green;
-  }
-  
-  .btn-outline-success:hover {
-    color: green;
-    background-color: #fff;
-  }
-  
-  .mainBackground {
-    display: grid;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    background-image: url("https://img.freepik.com/free-photo/rack-colorful-clothes-with-blue-background_1340-37474.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: .5rem;
-    height: 90vh;
-    color: rgb(86, 98, 226);
-    font-weight: bolder;
-  }
-  
+}
+
+.choiceContainer {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-gap: 2rem;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.image-kids,
+.image-Mens,
+.image-Womens {
+  height: 427px;
+  width: 18rem;
+  background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/12769350/2022/8/17/bac1be3a-86a8-4bee-924c-9e33822895d81660739209799CutiekinsGirlsPeach-ColouredGreenPrintedTopwithPalazzos1.jpg");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.image-Mens {
+  background-image: url("https://images.unsplash.com/photo-1516257984-b1b4d707412e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+}
+
+.image-Womens {
+  background-image: url("https://www.liveabout.com/thmb/i6Gl0us-vFA2Sbbsu5VpS-LfT1g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1-FashionJackson-5c59b194c9e77c00016b419e.jpg");
+}
+
+
+.card-body {
+  display: grid;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-title {
+  margin: 0;
+}
+
+#ShopBtn {
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: #4a99d2;
+  color: white;
+  border: 1px solid #4a99d2;
+}
+
+#ShopBtn:hover {
+  background-color: pink;
+  border: 1px solid pink;
+  color: rgba(0, 0, 0, 0.852);
+}
+
+
+@media (min-width :300px) and (max-width:500px) {
   #content>div {
-    padding: 10px;
+    margin: .1rem;
     background-color: white;
     color: rgb(74, 153, 210);
-    margin-bottom: 5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
   }
-  
-  #ShopBtn {
-    font-weight: bolder;
-    font-size: medium;
-    border-radius: 5px;
-    background-color: #4a99d2;
-    color: white;
-    border: 1px solid #4a99d2;
+}
+
+@media (min-width :300px) and (max-width:900px) {
+  .mainBackground {
+    height: 40vh;
   }
-  
-  #ShopBtn:hover {
-    background-color: pink;
-    border: 1px solid pink;
-    color: rgba(0, 0, 0, 0.852);
-  }
-  
-  .choiceContainer {
-    margin-top: 10vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    grid-gap: 2rem;
-  }
-  
-  .card-body {
-    display: grid;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  @media (min-width :300px) and (max-width:500px) {
-    #content>div {
-      margin: .1rem;
-      background-color: white;
-      color: rgb(74, 153, 210);
-      font-weight: bold;
-      margin-bottom: 0px;
-    }
-  }
-  
-  @media (min-width :300px) and (max-width:900px) {
-    .mainBackground {
-      height: 40vh;
-    }
-  }
-  
-  .card {
-    cursor: pointer;
-  }
-  
-  .nav-link {
-    color: white;
-  }
+}
+
+.card {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33.33vw, 3fr));
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: rgb(23 35 55);
+}
+
+#Main-container {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  justify-items: center;
+  padding: 31px;
+  border-right: 1px solid white;
+}
+
+#Address-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+}
+
+#Payment {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  color: white;
+  border-top: 1px solid white;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 12px;
+}
+
+h6 {
+  color: #878787;
+}
+
+#list {
+  padding-left: 0 !important;
+}
