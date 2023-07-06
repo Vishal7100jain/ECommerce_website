@@ -16,6 +16,10 @@ body::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
+li{
+    display: inline;
+}
+
 #MensWearHeader {
     display: grid;
     justify-content: center;
