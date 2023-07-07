@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-#MensWearHeader {
+#KidsWearHeader {
     display: grid;
     justify-content: center;
     background-color: #F86F03;
@@ -110,34 +110,34 @@ section {
     }
 }
 
-#MensWear-page-Shirt {
-    background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
+#kidsWear-page-Frogs {
+    background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/21480816/2023/1/9/def4ff1f-ed18-4db6-8f36-5cbdeb8e03b61673277369358CutiekinsStripeGeometricPrintedKaftaanPalazzoSet-PinkWhite1.jpg");
     background-size: cover;
 }
 
 
-#MensWear-page-Jeans {
-    background-image: url("https://img.fruugo.com/product/2/03/193809032_max.jpg");
+#kidsWear-page-BoysFull {
+    background-image: url("https://thumbs.dreamstime.com/b/stylish-little-boy-sunglasses-fashionable-clothes-children-s-fashion-stylish-rich-little-boy-fashionable-clothes-leaned-103783621.jpg");
     background-size: cover;
 }
 
-#MensWear-page-Shoes {
-    background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90");
+#kidsWear-page-GirlsTop {
+    background-image: url("https://cdn.shopify.com/s/files/1/0029/7041/9313/products/2020-Teenage-Girls-Clothing-Sets-Patchwork-T-shirt-jeans-Fashion-Tops-Denim-Pants-Jeans-For-Girls_grande.jpg?v=1627510020");
     background-size: cover;
 }
 
-#MensWear-page-Tracks {
-    background-image: url("https://assets.ajio.com/medias/sys_master/root/20230321/BuVo/64195207aeb26924e3e08f23/-473Wx593H-465738985-black-MODEL.jpg");
+#kidsWear-page-TeenFrogs {
+    background-image: url("https://assets0.mirraw.com/images/7893307/Rama_Chinon_Salwar_large_m.jpg?1688224747");
     background-size: cover;
 }
 
-#MensWear-page-Tshirts {
-    background-image: url("https://4.imimg.com/data4/AA/HC/MY-26596027/men-s-fancy-t-shirt-500x500.jpg");
+#kidsWear-page-TeensBoysFull {
+    background-image: url("https://ae01.alicdn.com/kf/S243fa896b4f4448d9717f39d7dd83588B/2022-New-Teenage-Boys-Shirts-Short-Sleeve-Striped-Shirt-For-Kids-Summer-Children-Clothes-Casual-Cotton.jpg");
     background-size: cover;
 }
 
-#MensWear-page-Watch {
-    background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg");
+#kidsWear-page-Watch {
+    background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-kid-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg");
     background-size: cover;
 }
 
