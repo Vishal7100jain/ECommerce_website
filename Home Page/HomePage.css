@@ -16,6 +16,146 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
+.nav_menu>div {
+  display: inline-block;
+  padding: 0 12px;
+}
+
+h6 a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
+
+h6 a i {
+  padding-right: 5px;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+h6:hover {
+  transform: scale(1.1);
+}
+
+h6 a:hover {
+  color: yellow;
+  text-decoration: double underline yellow;
+  text-decoration-thickness: 3px;
+}
+
+.choice i {
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+h3 {
+  display: inline;
+  color: #fccd36;
+  font-size: 40px;
+  margin-left: 53px;
+  font-family: fangsong;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+h3:hover {
+  color: white;
+}
+
+.Title img {
+  position: absolute;
+}
+
+.dropdown {
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: #4a99d2;
+  position: static;
+  border: 2px solid #212529;
+  transition: all .3s linear;
+  transform-origin: top right;
+  transform: scale(0, 0);
+  position: absolute;
+  right: 25px;
+}
+
+#check:checked~.dropdown {
+  transform: scale(1, 1);
+}
+
+.dropdown>div {
+  border: 2px solid #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dropdown>div a:hover {
+  color: yellow;
+  text-decoration: underline yellow;
+  text-decoration-thickness: 3px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown p {
+  margin: 0;
+}
+
+@media (min-width:300px) and (max-width:428px) {
+  .dropdown{
+    position: absolute;
+    left: 25px;
+    width: 200px;
+    transform-origin: top left;
+  }
+  
+}
+
+@media (min-width:300px) and (max-width:956px) {
+  .fa-bars {
+    display: block !important;
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    cursor: pointer;
+  }
+
+  .fa-bars:hover {
+    color: white;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  header {
+    padding-top: 5px;
+  }
+}
+
+
+#check-one:checked~.nav_menu{
+  display: grid;
+  padding: 15px 10px;
+}
+
+#check-one:checked~.nav_menu > div{
+  padding: 15px 10px;
+  color: #fccd36;
+}
+
+#check-one:checked~.nav_menu div a{
+  text-decoration: underline;
+}
+
 .mainBackground {
   display: grid;
   text-align: center;
@@ -52,7 +192,7 @@ body::-webkit-scrollbar-track {
   transform: scaleY(1);
   content: "Men's wear";
   text-align: center;
-  color: #F86F03;
+  color: yellow;
   letter-spacing: 2px;
   display: grid;
   align-content: center;
@@ -60,6 +200,7 @@ body::-webkit-scrollbar-track {
   font-weight: bolder;
   text-shadow: 1px 1px 2px #4a99d2, 0 0 1em #4a99d2, 0 0 0.2em #4a99d2;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #Females:hover::before {
@@ -128,8 +269,8 @@ body::-webkit-scrollbar-track {
 }
 
 #ShopBtn:hover {
-  background-color: pink;
-  border: 1px solid pink;
+  background-color: yellow;
+  border: 1px solid yellow;
   color: rgba(0, 0, 0, 0.852);
 }
 
@@ -193,24 +334,28 @@ footer {
   border-top: 1px solid white;
 }
 
-li {
+footer li {
   list-style: none;
 }
 
-a,
+footer a,
 p {
   text-decoration: none;
   color: white;
 }
 
-p {
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
   font-size: 12px;
 }
 
-h6 {
+footer h5 {
   color: #878787;
 }
 
-#list {
+footer #list {
   padding-left: 0 !important;
 }
