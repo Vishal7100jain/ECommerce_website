@@ -36,7 +36,7 @@ h6 {
   margin-bottom: 0;
 }
 
-h6:hover{
+h6:hover {
   transform: scale(1.1);
 }
 
@@ -82,7 +82,7 @@ h3:hover {
   right: 25px;
 }
 
-#check:checked ~ .dropdown{
+#check:checked~.dropdown {
   transform: scale(1, 1);
 }
 
@@ -109,8 +109,18 @@ h3:hover {
   margin: 0;
 }
 
-@media (min-width:300px) and (max-width:956px){
-  .fa-bars{
+@media (min-width:300px) and (max-width:428px) {
+  .dropdown{
+    position: absolute;
+    left: 25px;
+    width: 200px;
+    transform-origin: top left;
+  }
+  
+}
+
+@media (min-width:300px) and (max-width:956px) {
+  .fa-bars {
     display: block !important;
     position: absolute;
     top: 13px;
@@ -118,24 +128,33 @@ h3:hover {
     cursor: pointer;
   }
 
-  .fa-bars:hover{
+  .fa-bars:hover {
     color: white;
   }
 
-  .nav_menu{
+  .nav_menu {
     display: none;
   }
 
-  header{
+  header {
     padding-top: 5px;
   }
 }
-/* 
-#check_one-:checked ~ body{
-  background-color: black !important;
-} */
 
 
+#check-one:checked~.nav_menu{
+  display: grid;
+  padding: 15px 10px;
+}
+
+#check-one:checked~.nav_menu > div{
+  padding: 15px 10px;
+  color: #fccd36;
+}
+
+#check-one:checked~.nav_menu div a{
+  text-decoration: underline;
+}
 
 .mainBackground {
   display: grid;
@@ -333,7 +352,7 @@ footer p {
   font-size: 12px;
 }
 
-footer h6 {
+footer h5 {
   color: #878787;
 }
 
