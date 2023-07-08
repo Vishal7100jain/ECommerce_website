@@ -45,6 +45,23 @@ body::-webkit-scrollbar-track {
     border: 3px solid;
 }
 
+.dropdown-menu{
+    border: 3px solid black;
+    font-size: large;
+    font-weight: 900 !important;
+    padding: 0px 0px;
+}
+
+.dropdown-item{
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(108, 232, 108);
+    color: white;
+}
+
 section {
     width: 100%;
     display: flex;
