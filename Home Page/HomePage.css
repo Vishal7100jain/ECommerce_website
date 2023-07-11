@@ -140,7 +140,6 @@ h3:hover {
   }
 
   .nav_menu {
-    transition: all .3s linear;
     height: 5px;
   }
 
@@ -156,7 +155,6 @@ h3:hover {
 
 
 #check-one:checked~.nav_menu {
-  transition: all .3s linear;
   display: grid;
   transform: scaleY(1);
   height: 17rem;
