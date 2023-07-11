@@ -16,6 +16,10 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
+header{
+  background-color: rgb(74, 153, 210);
+}
+
 .nav_menu>div {
   display: inline-block;
   padding: 0 12px;
