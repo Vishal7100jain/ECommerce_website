@@ -110,13 +110,13 @@ h3:hover {
 }
 
 @media (min-width:300px) and (max-width:428px) {
-  .dropdown{
+  .dropdown {
     position: absolute;
     left: 25px;
     width: 200px;
     transform-origin: top left;
   }
-  
+
 }
 
 @media (min-width:300px) and (max-width:956px) {
@@ -133,7 +133,20 @@ h3:hover {
   }
 
   .nav_menu {
-    display: none;
+    display: grid;
+    transform-origin: top;
+    transform: scaleY(0);
+    height: 5px;
+  }
+
+  .nav_menu {
+    transition: all .3s linear;
+    height: 5px;
+  }
+
+  .nav_menu>div {
+    padding: 15px 10px;
+    font-weight: bolder;
   }
 
   header {
@@ -142,18 +155,21 @@ h3:hover {
 }
 
 
-#check-one:checked~.nav_menu{
+#check-one:checked~.nav_menu {
+  transition: all .3s linear;
   display: grid;
-  padding: 15px 10px;
+  transform: scaleY(1);
+  height: 17rem;
 }
 
-#check-one:checked~.nav_menu > div{
-  padding: 15px 10px;
+#check-one:checked~.nav_menu>div {
   color: #fccd36;
 }
 
-#check-one:checked~.nav_menu div a{
+#check-one:checked~.nav_menu div a {
   text-decoration: underline;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 .mainBackground {
