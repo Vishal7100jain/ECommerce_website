@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-#MensWearHeader {
+#KidsWearHeader {
     display: grid;
     justify-content: center;
     background-color: #F86F03;
@@ -35,6 +35,7 @@ body::-webkit-scrollbar-track {
 .nav-link:hover {
     text-decoration: double underline rgb(108, 232, 108);
     text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
 }
 
 .btn-outline-success {
@@ -42,6 +43,23 @@ body::-webkit-scrollbar-track {
     font-size: large;
     font-weight: bolder;
     border: 3px solid;
+}
+
+.dropdown-menu{
+    border: 3px solid black;
+    font-size: large;
+    font-weight: 900 !important;
+    padding: 0px 0px;
+}
+
+.dropdown-item{
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(108, 232, 108);
+    color: white;
 }
 
 section {
@@ -80,6 +98,16 @@ section {
     overflow: hidden;
 }
 
+@media (min-width:280px) and (max-width:380px) {
+    .kids-wears {
+        margin: 60px;
+        width: 275px;
+        height: 305px;
+        margin-top: -10px;
+    }
+}
+
+
 .hover-container:hover {
     background: linear-gradient(50deg, #F86F03, #F86F03);
 }
@@ -110,34 +138,34 @@ section {
     }
 }
 
-#MensWear-page-Shirt {
-    background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
+#kidsWear-page-Frogs {
+    background-image: url("https://img.tatacliq.com/images/i8/320Wx357H/MP000000014202256_320Wx357H_202208230212291.jpeg");
     background-size: cover;
 }
 
 
-#MensWear-page-Jeans {
-    background-image: url("https://img.fruugo.com/product/2/03/193809032_max.jpg");
+#kidsWear-page-BoysFull {
+    background-image: url("https://5.imimg.com/data5/RZ/WM/YL/SELLER-20299944/long-sleeves-boys-kids-dresses-jeans.jpg");
     background-size: cover;
 }
 
-#MensWear-page-Shoes {
-    background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90");
+#kidsWear-page-GirlsTop {
+    background-image: url("https://rukminim1.flixcart.com/image/612/612/xif0q/kids-apparel-combo/p/x/n/4-5-years-vg607-white-value-creation-original-imaggf29gw6bw4at.jpeg?q=70");
     background-size: cover;
 }
 
-#MensWear-page-Tracks {
-    background-image: url("https://assets.ajio.com/medias/sys_master/root/20230321/BuVo/64195207aeb26924e3e08f23/-473Wx593H-465738985-black-MODEL.jpg");
+#kidsWear-page-TeenFrogs {
+    background-image: url("https://i0.wp.com/grandeurfashion.pk/wp-content/uploads/2022/03/psd-1_0002__47A0659-scaled.jpg?fit=1707%2C2560&ssl=1");
     background-size: cover;
 }
 
-#MensWear-page-Tshirts {
-    background-image: url("https://4.imimg.com/data4/AA/HC/MY-26596027/men-s-fancy-t-shirt-500x500.jpg");
+#kidsWear-page-TeensBoysFull {
+    background-image: url("https://cdn.shopify.com/s/files/1/2348/5467/products/08_c8952fe2-c7d0-43ae-9309-550605841f9b_400x.jpg?v=1640271070");
     background-size: cover;
 }
 
-#MensWear-page-Watch {
-    background-image: url("https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg");
+#kidsWear-page-Watch {
+    background-image: url('https://images.meesho.com/images/products/246825461/l1fud_512.webp');
     background-size: cover;
 }
 
