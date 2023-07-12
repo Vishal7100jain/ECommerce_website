@@ -19,7 +19,7 @@ body::-webkit-scrollbar-track {
 #KidsWearHeader {
     display: grid;
     justify-content: center;
-    background-color: #F86F03;
+    background-color: #FFA41B;
     position: fixed;
     top: 0px;
     width: 100vw;
