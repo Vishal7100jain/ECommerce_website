@@ -16,6 +16,10 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
+header{
+  background-color: rgb(74, 153, 210);
+}
+
 .nav_menu>div {
   display: inline-block;
   padding: 0 12px;
@@ -116,7 +120,7 @@ h3:hover {
     width: 200px;
     transform-origin: top left;
   }
-
+/*  nothing to change  */
 }
 
 @media (min-width:300px) and (max-width:956px) {
@@ -127,16 +131,17 @@ h3:hover {
     right: 16px;
     cursor: pointer;
   }
-
+  
   .fa-bars:hover {
     color: white;
   }
-
+  
   .nav_menu {
     display: grid;
     transform-origin: top;
     transform: scaleY(0);
     height: 5px;
+/*   nothing to change   */
   }
 
   .nav_menu {
@@ -148,18 +153,26 @@ h3:hover {
     padding: 15px 10px;
     font-weight: bolder;
   }
-
+  
+  .nav_menu {
+    height: 5px;
+  }
+  
+  .nav_menu>div {
+    padding: 15px 10px;
+    font-weight: bolder;
+  }
+  
   header {
     padding-top: 5px;
   }
 }
 
-
 #check-one:checked~.nav_menu {
-  transition: all .3s linear;
   display: grid;
   transform: scaleY(1);
   height: 17rem;
+/*  every thing is ok now*/
 }
 
 #check-one:checked~.nav_menu>div {
@@ -374,4 +387,10 @@ footer h5 {
 
 footer #list {
   padding-left: 0 !important;
+}
+
+@media (min-width:300px) and (max-width:820px) {
+  footer{
+    display: none;
+  }
 }
