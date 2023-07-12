@@ -53,7 +53,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #5A96E3;
+    background-color: #525FE1;
     margin-top: 120px;
 }
 
@@ -107,10 +107,10 @@ section div:nth-child(6) {
 }
 
 section>div:hover {
-    color: #5A96E3;
+    color: #525FE1;
     box-shadow: 10px 0 100px #FFA41B, -10px -10px 100px #FFA41B;
-    text-shadow: 1px 1px 2px #000, 0 0 1em blue, 0 0 0.2em blue;
-    border-color: #5A96E3;
+    text-shadow: 1px 1px 2px #000000, 0 0 1em blue, 0 0 0.2em blue;
+    border-color: #525FE1;
     transform: scale(1.1, 1.1);
 }
 
