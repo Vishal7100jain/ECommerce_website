@@ -120,6 +120,7 @@ h3:hover {
     width: 200px;
     transform-origin: top left;
   }
+/*  nothing to change  */
 }
 
 @media (min-width:300px) and (max-width:956px) {
@@ -140,6 +141,17 @@ h3:hover {
     transform-origin: top;
     transform: scaleY(0);
     height: 5px;
+/*   nothing to change   */
+  }
+
+  .nav_menu {
+    transition: all .3s linear;
+    height: 5px;
+  }
+
+  .nav_menu>div {
+    padding: 15px 10px;
+    font-weight: bolder;
   }
   
   .nav_menu {
@@ -160,6 +172,7 @@ h3:hover {
   display: grid;
   transform: scaleY(1);
   height: 17rem;
+/*  every thing is ok now*/
 }
 
 #check-one:checked~.nav_menu>div {
