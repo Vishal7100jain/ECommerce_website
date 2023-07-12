@@ -2,6 +2,7 @@ body {
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
+    background-color: #525FE1;
 }
 
 body::-webkit-scrollbar {
@@ -16,7 +17,7 @@ body::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-#KidsWearHeader {
+#WomensWearHeader {
     display: grid;
     justify-content: center;
     background-color: #FFA41B;
@@ -33,9 +34,8 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-link:hover {
-    text-decoration: double underline rgb(108, 232, 108);
+    text-decoration: double underline #5A96E3;
     text-decoration-thickness: 3px;
-    text-decoration-skip-ink: none;
 }
 
 .btn-outline-success {
@@ -45,23 +45,6 @@ body::-webkit-scrollbar-track {
     border: 3px solid;
 }
 
-.dropdown-menu{
-    border: 3px solid black;
-    font-size: large;
-    font-weight: 900 !important;
-    padding: 0px 0px;
-}
-
-.dropdown-item{
-    border-bottom: 3px solid black;
-    font-weight: bolder;
-}
-
-.dropdown-item:hover{
-    background-color: rgb(108, 232, 108);
-    color: white;
-}
-
 section {
     width: 100%;
     display: flex;
@@ -69,9 +52,11 @@ section {
     background-color: #525FE1;
     margin-top: 122px;
     justify-content: center;
+    padding-top: 40px;
+    height: 100%;
 }
 
-.kids-wears {
+.Women-wears {
     margin: 60px;
     width: 300px;
     height: 300px;
@@ -88,85 +73,49 @@ section {
     margin-top: -7px;
 }
 
-.hover-container {
+
+#WomenWear-page-Dress {
+    background-image: url("https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7723403/2018/11/12/b6938891-c168-444c-ab87-2ee2230af79f1542013784945-Nayo-Women-Dresses-5761542013784748-1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+#WomenWear-page-JeansTop{
+    background-image: url("https://freakins.com/cdn/shop/files/pkb02061-Edit.jpg?v=1687873627&width=1333");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#WomenWear-page-Sadi{
+    background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/12/VM/SL/TP/150323584/designer-embroidery-women-saree.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.hover-container{
     display: grid;
     justify-content: center;
-    width: 320px;
-    height: 323px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     margin: 32px;
-    overflow: hidden;
+    background-color: #FFA41B;
 }
 
-@media (min-width:280px) and (max-width:380px) {
-    .kids-wears {
-        margin: 60px;
-        width: 275px;
-        height: 305px;
-        margin-top: -10px;
-    }
-}
-
-
-.hover-container:hover {
-    background: linear-gradient(50deg, #F86F03, #F86F03);
-}
-
-.hover-container::before {
-    content: "";
+p{
+    display: grid;
+    justify-content: center;
     position: relative;
-    top: 67px;
-    right: -22px;
-    height: 19px;
-    width: 378px;
-    transform: translate(0, -100px);
-    background: linear-gradient(50deg, rgb(108, 232, 108), rgb(108, 232, 108));
-
+    bottom: 92px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.hover-container:hover::before {
-    animation: cardeffect 3s linear infinite;
-}
-
-@keyframes cardeffect {
-    50% {
-        transform: translate(0, 280px);
-    }
-
-    100% {
-        transform: translate(0, -280px);
-    }
-}
-
-#kidsWear-page-Frogs {
-    background-image: url("https://img.tatacliq.com/images/i8/320Wx357H/MP000000014202256_320Wx357H_202208230212291.jpeg");
-    background-size: cover;
-}
-
-
-#kidsWear-page-BoysFull {
-    background-image: url("https://5.imimg.com/data5/RZ/WM/YL/SELLER-20299944/long-sleeves-boys-kids-dresses-jeans.jpg");
-    background-size: cover;
-}
-
-#kidsWear-page-GirlsTop {
-    background-image: url("https://rukminim1.flixcart.com/image/612/612/xif0q/kids-apparel-combo/p/x/n/4-5-years-vg607-white-value-creation-original-imaggf29gw6bw4at.jpeg?q=70");
-    background-size: cover;
-}
-
-#kidsWear-page-TeenFrogs {
-    background-image: url("https://i0.wp.com/grandeurfashion.pk/wp-content/uploads/2022/03/psd-1_0002__47A0659-scaled.jpg?fit=1707%2C2560&ssl=1");
-    background-size: cover;
-}
-
-#kidsWear-page-TeensBoysFull {
-    background-image: url("https://cdn.shopify.com/s/files/1/2348/5467/products/08_c8952fe2-c7d0-43ae-9309-550605841f9b_400x.jpg?v=1640271070");
-    background-size: cover;
-}
-
-#kidsWear-page-Watch {
-    background-image: url('https://images.meesho.com/images/products/246825461/l1fud_512.webp');
-    background-size: cover;
+.Women-wears:hover{
+    transform: translateY(-30px);
 }
 
 
