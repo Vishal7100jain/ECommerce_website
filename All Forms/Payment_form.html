@@ -6,83 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment form</title>
-
-    <!--CSS-->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Tahoma, Geneva, sans-serif;
-            font-size: small;
-            text-transform: capitalize;
-            background-image: url("https://assets.weforum.org/article/image/F9tjZiPUEm-kkcdX20ZU5R_YpNBlnBeQvXfOphczskE.jpg");
-            background-size: cover;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            display: grid;
-            justify-content: center;
-            background-color: rgba(0, 0, 0, 0.704);
-        }
-
-        .container {
-            background-color: #f2f2f28b;
-            padding: 20px;
-            border-radius: 4px;
-            width: 60vw;
-        }
-
-        input[type="text"],
-        input[type="number"],
-        input[type="date"],
-        textarea,
-        select {
-            padding: 8px;
-            border: 2px solid rgb(22, 80, 37);
-            border-radius: 5px;
-            width: 100%;
-            margin: 10px;
-        }
-
-        input:focus {
-            outline: none;
-        }
-
-        fieldset {
-            padding: 5px;
-            border: 2px solid rgb(22, 80, 37);
-            border-radius: 5px;
-            width: 100%;
-        }
-
-        .name {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        input[type="submit"] {
-            color: #000000;
-            background-color: hsla(120, 82%, 49%, 0.432);
-            border: 1px solid hsla(120, 82%, 48%, 0.432) !important;
-            width: 100%;
-            height: 40px;
-            text-align: center;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: hsla(120, 100%, 44%, 0.801);
-            border: 1px solid hsla(120, 100%, 44%, 0.801) !important;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <!--HTML-->
@@ -90,8 +14,6 @@
 <body>
     <div id="image-bg">
         <form action="#" class="container">
-
-
             <header>
                 <h1><b> Payment form </b></h1>
             </header>
@@ -103,21 +25,13 @@
                 <p> Last Name: <input type="text" required placeholder="Enter Your Last Name"></p>
             </div>
 
-            <p>
-            <fieldset>
-                <legend>gender</legend>
-                <label> male <input type="radio" name="gender" required></label>
-                <label> female <input type="radio" name="gender" required></label>
-            </fieldset>
-            </p>
-
             <p> Address: <textarea name="textarea" placeholder="Entry Your Address" id="1a" cols="50"
                     rows="7"></textarea>
             </p>
 
             <p> Email: <input type="text" required placeholder="ABC@gmail.com"></p>
 
-            <p> Pincode: <input type="password" required placeholder="123456"></p>
+            <p> Pincode: <input type="password" required placeholder="XXXXXX"></p>
 
 
             <h1><b> Payment Information </b></h1>
@@ -132,11 +46,11 @@
 
                 </select></p>
 
-            <p> card number: <input type="number" required placeholder="1111-2222-3333-4444"> </p>
+            <p> Card number: <input type="number" required placeholder="1111-2222-3333-4444"> </p>
 
-            <p> expiration date <input type="date" required placeholder="dd/mm/yyyy"></p>
+            <p> Expiration date: <input type="date" required placeholder="dd/mm/yyyy"></p>
 
-            <p> cvv: <input type="number" required placeholder="123"></p>
+            <p> Cvv: <input type="number" required placeholder="123"></p>
 
             <p> <input type="submit" required value="Pay now"></p>
 
