@@ -7,45 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment form</title>
 
-                <!--CSS-->
+    <!--CSS-->
     <style>
         * {
             box-sizing: border-box;
         }
 
         body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 15px 30px;
+            font-family: Tahoma, Geneva, sans-serif;
             font-size: small;
-            padding: 5px;
             text-transform: capitalize;
-
+            background-image: url("https://assets.weforum.org/article/image/F9tjZiPUEm-kkcdX20ZU5R_YpNBlnBeQvXfOphczskE.jpg");
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.704);
         }
 
         .container {
-            background-color: #f2f2f2;
-            padding: 20px 20px 20px 20px;
-            border: 5px solid rgb(128, 240, 156);
+            background-color: #f2f2f28b;
+            padding: 20px;
             border-radius: 4px;
+            width: 60vw;
         }
+
         input[type="text"],
         input[type="number"],
         input[type="date"],
         textarea,
         select {
             padding: 8px;
-            border: 2px solid rgb(128, 240, 156);
+            border: 2px solid rgb(22, 80, 37);
             border-radius: 5px;
             width: 100%;
             margin: 10px;
+        }
 
+        input:focus {
+            outline: none;
         }
 
         fieldset {
             padding: 5px;
-            border: 2px solid rgb(128, 240, 156);
+            border: 2px solid rgb(22, 80, 37);
             border-radius: 5px;
             width: 100%;
+        }
+
+        #name {
+            display: flex;
+            justify-content: space-evenly;
         }
 
         header {
@@ -62,66 +77,72 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        
+
         input[type="submit"]:hover {
             background-color: hsla(120, 100%, 44%, 0.801);
             border: 1px solid hsla(120, 100%, 44%, 0.801) !important;
         }
-        
-        </style>
+    </style>
 </head>
 
-                <!--HTML-->
+<!--HTML-->
+
 <body>
-    <form action="#" class="container">
+    <div id="image-bg">
+        <form action="#" class="container">
 
 
-        <header>
-            <h1><b> Payment form </b></h1>
-        </header>
-        <hr>
+            <header>
+                <h1><b> Payment form </b></h1>
+            </header>
+            <hr>
 
-        <h2><b>User Information</b></h2>
-        <p> Name: * <input type="text" required placeholder="Enter Your Name"></p>
+            <h2><b>User Information</b></h2>
+            <div class="name">
+                <p> First Name: <input type="text" required placeholder="Enter Your First Name"></p>
+                <p> Last Name: <input type="text" required placeholder="Enter Your Last Name"></p>
+            </div>
 
-        <p>
-        <fieldset>
-            <legend>gender</legend>
-            <label> male <input type="radio" name="gender" required></label>
-            <label> female <input type="radio" name="gender" required></label>
-        </fieldset>
-        </p>
+            <p>
+            <fieldset>
+                <legend>gender</legend>
+                <label> male <input type="radio" name="gender" required></label>
+                <label> female <input type="radio" name="gender" required></label>
+            </fieldset>
+            </p>
 
-        <p> Address: <textarea name="textarea" placeholder="Entry Your Address" id="1a" cols="50" rows="7"></textarea>
-        </p>
+            <p> Address: <textarea name="textarea" placeholder="Entry Your Address" id="1a" cols="50"
+                    rows="7"></textarea>
+            </p>
 
-        <p> Email: <input type="text" required placeholder="ABC@gmail.com"></p>
+            <p> Email: <input type="text" required placeholder="ABC@gmail.com"></p>
 
-        <p> Pincode: <input type="password" required placeholder="123456"></p>
+            <p> Pincode: <input type="password" required placeholder="123456"></p>
 
 
-        <h1><b> Payment Information </b></h1>
+            <h1><b> Payment Information </b></h1>
 
-        <p>
-            Card Type: <select name="card type" required id="2a">
+            <p>
+                Card Type: <select name="card type" required id="2a">
 
-                <option value="empty" name="card">--Select Card type--</option>
-                <option value="Credit Card" name="card">Credit Card</option>
-                <option value="Debit Card" name="card">Debit Card</option>
-                <option value="Atm Card " name="card">Atm Card</option>
+                    <option value="empty" name="card">--Select Card type--</option>
+                    <option value="Credit Card" name="card">Credit Card</option>
+                    <option value="Debit Card" name="card">Debit Card</option>
+                    <option value="Atm Card " name="card">Atm Card</option>
 
-            </select></p>
+                </select></p>
 
-        <p> card number: <input type="number" required placeholder="1111-2222-3333-4444"> </p>
+            <p> card number: <input type="number" required placeholder="1111-2222-3333-4444"> </p>
 
-        <p> expiration date <input type="date" required placeholder="dd/mm/yyyy"></p>
+            <p> expiration date <input type="date" required placeholder="dd/mm/yyyy"></p>
 
-        <p> cvv: <input type="number" required placeholder="123"></p>
+            <p> cvv: <input type="number" required placeholder="123"></p>
 
-        <p> <input type="submit" required value="Pay now"></p>
+            <p> <input type="submit" required value="Pay now"></p>
 
-    </form>
+        </form>
 
+    </div>
 </body>
 
 </html>
