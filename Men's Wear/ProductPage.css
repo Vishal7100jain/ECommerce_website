@@ -1,0 +1,331 @@
+body {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#MensWearHeader {
+    display: grid;
+    justify-content: center;
+    background-color: #FFA41B;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 999;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: double underline #5A96E3;
+    text-decoration-thickness: 3px;
+}
+
+.btn-outline-success {
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    border: 3px solid;
+}
+
+main {
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Maincontainer {
+    display: grid;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 10px));
+}
+
+.photoChoice {
+    display: grid;
+    grid-template-rows: repeat(2, 70px);
+    padding: 10px 10px;
+    width: 80px;
+}
+
+
+.photoChoice>div {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #FFA41B;
+    cursor: pointer;
+}
+
+.Choice-one {
+    background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://m.media-amazon.com/images/I/51n8mKDv21L._AC_SX466_.jpg");
+    background-size: cover;
+}
+
+#mainPhoto {
+    height: 360px;
+    width: 330px;
+}
+
+.mainPhoto {
+    background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
+    background-size: cover;
+    height: 360px;
+}
+
+@media (min-width :320px) and (max-width:416px) {
+    .photo {
+        grid-template-columns: repeat(1, 100vw);
+        justify-items: center;
+    }
+
+}
+
+@media (min-width :320px) and (max-width:500px) {
+    .photoChoice {
+        display: none;
+    }
+}
+@media (min-width :416px) and (max-width:500px) {
+    .photo {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+.Carts-Buy {
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Carts-Buy>button {
+    padding: 10px 40px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.Carts-Buy>button:hover {
+    color: black;
+}
+
+.cart {
+    background-color: #ff9f00;
+    border: 1px solid #ff9f00;
+}
+
+.buy {
+    background-color: #fb641b;
+    border: 1px solid #fb641b;
+}
+
+.Carts-Buy>button i {
+    padding: 2px;
+}
+
+.details {
+    padding: 10px 10px;
+}
+
+.Product-title {
+    font-weight: bold;
+    color: #0000006b;
+}
+
+#discription {
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.Special-price,
+.precentOff {
+    color: green;
+    font-weight: 400;
+}
+
+.precentOff {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#Price {
+    font-weight: bolder;
+    font-size: x-large;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.notprice {
+    text-decoration: line-through;
+    color: rgba(159, 153, 153, 0.812);
+    display: inline-block;
+    padding-right: 3px;
+}
+
+#ratingCount {
+    color: #0000006b;
+}
+
+.color {
+    margin-top: 20px;
+}
+
+.color .photoChoice {
+    display: flex;
+    width: 225px;
+    margin-left: 54px;
+    justify-content: space-evenly;
+}
+
+.color h6 {
+    margin: 0;
+    font-family: cursive;
+}
+
+.sizeSelect {
+    margin-top: 20px;
+}
+
+.sizeSelect p {
+    margin: 0px;
+    color: black;
+    font-family: cursive;
+}
+
+.size {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sizeSelect .size>div {
+    display: inline-block;
+    border: 2px solid #0000006b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sizeSelect .size>div:hover {
+    background-color: #89808046;
+}
+
+@media (min-width:320px) and (max-width:420px) {
+    .Carts-Buy {
+        padding: 0px;
+        font-size: medium;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        font-size: small;
+    }
+
+    .Carts-Buy>button {
+        padding: 10px 15px;
+        width: 50%;
+    }
+
+    .details {
+        margin-bottom: 40px;
+    }
+
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33.33vw, 3fr));
+}
+
+footer {
+    background-color: rgb(23 35 55);
+}
+
+#Main-container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    justify-items: center;
+    padding: 31px;
+    border-right: 1px solid white;
+}
+
+#Address-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+}
+
+#Payment {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    color: white;
+    border-top: 1px solid white;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a,
+p {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer h5 {
+    color: #878787;
+}
+
+footer #list {
+    padding-left: 0 !important;
+}
+
+@media (min-width:300px) and (max-width:820px) {
+    footer {
+        display: none;
+    }
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
