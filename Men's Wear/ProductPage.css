@@ -91,7 +91,7 @@ main {
     width: 330px;
 }
 
-.mainPhoto {
+#mainPhotodiv {
     background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
     background-size: cover;
     height: 360px;
