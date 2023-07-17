@@ -8,11 +8,11 @@ Array.from(sectionDiv).forEach((div) => {
     
     var selectedDiv = event.target;
     var DivBgImageSRC = window.getComputedStyle(selectedDiv).getPropertyValue('background-image');
-    localStorage.setItem('postRequestBody', DivBgImageSRC);
+    localStorage.setItem('SelectedProduct', DivBgImageSRC);
 
       for (let i = 0; i < localStorage.length; i++) {
         let key = localStorage.key(i);
-        if (key.startsWith("postRequestBody")) {
+        if (key.startsWith("SelectedProduct")) {
           window.open("/commonPage/Product.html", "_blank")
         }
       }
