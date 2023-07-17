@@ -10,14 +10,12 @@ Array.from(sectionDiv).forEach((div) => {
     var DivBgImageSRC = window.getComputedStyle(selectedDiv).getPropertyValue('background-image');
     localStorage.setItem('postRequestBody', DivBgImageSRC);
 
-    setInterval(() => {
       for (let i = 0; i < localStorage.length; i++) {
         let key = localStorage.key(i);
         if (key.startsWith("postRequestBody")) {
-          window.location.href = "Product.html"
+          window.open("/commonPage/Product.html", "_blank")
         }
       }
-    },1000)
   });
 });
 
