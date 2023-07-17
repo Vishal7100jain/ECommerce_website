@@ -28,9 +28,9 @@ if (postRequestBody) {
         imageTwo.style.backgroundImage = postRequestBody;
 
         //Too change the main image to the seleted image
-        function imagechangingTwo() {
+        function imagechangingTwo(imageURL) {
             imageTwo.addEventListener('click', (e) => {
-                mainPhoto.style.backgroundImage = imageTwo.style.backgroundImage
+                mainPhoto.style.backgroundImage = imageURL
             })
         }
 
@@ -38,39 +38,40 @@ if (postRequestBody) {
         //back image for Shirt
         if (postRequestBody == `url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/s/u/f/s-st10-vebnor-original-imagprjgsdzafrqb.jpeg?q=70")`) {
             imageTwo.style.backgroundImage = ShirtBackimage
-            imagechangingTwo()
+            imagechangingTwo(`${ShirtBackimage}`)
         }
-
+        
         //back image for jeans
         else if (postRequestBody == `url("https://rukminim2.flixcart.com/image/832/832/xif0q/jean/n/r/2/-original-imaghsebtyzqzkyv.jpeg?q=70")`) {
             imageTwo.style.backgroundImage = jeansBackimage
-            imagechangingTwo()
+            imagechangingTwo(`${jeansBackimage}`)
         }
-
+        
         //back image for Shoes
         else if (postRequestBody == `url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90")`) {
             imageTwo.style.backgroundImage = ShoesBackimage
-            imagechangingTwo()
+            imagechangingTwo(`${ShoesBackimage}`)
         }
-
+        
         //back image for Tracks
         else if (postRequestBody == `url("https://dpassion.com/cdn/shop/products/057A5307_1000x.jpg?v=1678771278")`) {
             imageTwo.style.backgroundImage = TracksBackimage
             imagechangingTwo()
+            imagechangingTwo(`${TracksBackimage}`)
         }
-
+        
         //back image for T-shirt
         else if (postRequestBody == `url("https://rukminim2.flixcart.com/image/832/832/kflftzk0-0/t-shirt/y/3/i/l-msp19pn010b-metronaut-original-imafwyf78bvf4rsy.jpeg?q=70")`) {
             imageTwo.style.backgroundImage = TShirtBackimage
-            imagechangingTwo()
+            imagechangingTwo(`${TShirtBackimage}`)
         }
-
+        
         //back image for watch
         else if (postRequestBody == `url("https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/i/2/2/-original-imagzvhswuuzay6x.jpeg?q=70")`) {
             imageTwo.style.backgroundImage = WatchBackimage
-            imagechangingTwo()
+            imagechangingTwo(`${WatchBackimage}`)
         }
-
+        
     }
 } else {
     console.log('Background image URL not found in local storage');
