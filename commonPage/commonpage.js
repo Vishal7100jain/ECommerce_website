@@ -1,5 +1,9 @@
 let SelectedProduct = localStorage.getItem('SelectedProduct');
+<<<<<<< HEAD
 let ShirtBackimage = "url('https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/t/f/s-st10-vebnor-original-imagprjgqffut9wf.jpeg?q=70')"
+=======
+let ShirtBackimage = "url('https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/s/g/p/l-st1-vebnor-original-imagmsyxunkgztzw.jpeg?q=70')"
+>>>>>>> Menswear
 let jeansBackimage = "url('https://rukminim2.flixcart.com/image/832/832/xif0q/jean/c/v/e/-original-imaghseb6wjdg9un.jpeg?q=70')"
 let ShoesBackimage = "url('https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/j/v/9/6-tm-12-6-trm-white-original-imagjqyzntcvcmhz.jpeg?q=90')"
 let TracksBackimage = "url('https://dpassion.com/cdn/shop/products/057A5313_1000x.jpg?v=1678771278')"
