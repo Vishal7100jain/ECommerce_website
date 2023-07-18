@@ -1,0 +1,20 @@
+.Choice-one {
+    background-image: url("https://dpassion.com/cdn/shop/products/057A5307_1000x.jpg?v=1678771278");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://dpassion.com/cdn/shop/products/057A5313_1000x.jpg?v=1678771278");
+    background-size: cover;
+}
+
+#mainPhoto {
+    height: 360px;
+    width: 330px;
+}
+
+#mainPhotodiv {
+    background-image: url("https://dpassion.com/cdn/shop/products/057A5307_1000x.jpg?v=1678771278");
+    background-size: cover;
+    height: 360px;
+}

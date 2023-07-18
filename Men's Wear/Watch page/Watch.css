@@ -1,0 +1,20 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/i/2/2/-original-imagzvhswuuzay6x.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/d/u/k/-original-imagzzukgevbkh9w.jpeg?q=70");
+    background-size: cover;
+}
+
+#mainPhoto {
+    height: 360px;
+    width: 330px;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/i/2/2/-original-imagzvhswuuzay6x.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}
