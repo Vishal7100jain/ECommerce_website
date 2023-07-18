@@ -19,3 +19,4 @@ for (i = 0; i < ChoiceOne.length; i++) {
 }
 let ChoiceTwo = document.getElementsByClassName('.Choice-two')
 
+ 
