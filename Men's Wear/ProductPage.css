@@ -156,14 +156,15 @@ main {
 }
 
 .Product-title {
-    font-weight: bold;
+    font-weight: 600;
     color: #0000006b;
 }
 
-#discription {
-    font-weight: 600;
-    color: black;
-    margin-bottom: 5px;
+.discription {
+    font-weight: normal;
+color: black;
+margin-bottom: 5px;
+font-size: large;
 }
 
 .Special-price,

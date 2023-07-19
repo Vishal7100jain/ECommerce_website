@@ -26,6 +26,7 @@ for (i = 0; i < ChoiceTwo.length; i++) {
 }
 
 
+//Logic to select the size
 let sizeDiv = document.getElementById('size')
 let eachSizeDiv = sizeDiv.querySelectorAll('div')
 let SSizeDiv = document.getElementById('S')
