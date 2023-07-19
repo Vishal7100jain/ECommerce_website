@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 let ShirtPage = document.getElementById('MensWear-page-Shirt')
 let JeansPage = document.getElementById('MensWear-page-Jeans')
 let WatchPage = document.getElementById('MensWear-page-Watch')
@@ -32,4 +30,3 @@ ShoesPage.addEventListener('click', () => {
   window.open("Shoes Page/Shoes.html", "_blank")
 })
 
->>>>>>> master
