@@ -1,0 +1,17 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/o/t/l-st1-vebnor-original-imagmsyxhvkrfjgz.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/s/g/p/l-st1-vebnor-original-imagmsyxunkgztzw.jpeg?q=70");
+    background-size: cover;
+}
+
+
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/o/t/l-st1-vebnor-original-imagmsyxhvkrfjgz.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}

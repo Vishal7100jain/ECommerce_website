@@ -1,0 +1,20 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/jvmpci80/track-pant/6/a/p/xxl-8328629-hrx-by-hrithik-roshan-original-imafghfr4udjywdt.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/jvmpci80/track-pant/6/a/p/xxl-8328629-hrx-by-hrithik-roshan-original-imafghfqqcgxktnh.jpeg?q=70");
+    background-size: cover;
+}
+
+#mainPhoto {
+    height: 360px;
+    width: 330px;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/jvmpci80/track-pant/6/a/p/xxl-8328629-hrx-by-hrithik-roshan-original-imafghfr4udjywdt.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}

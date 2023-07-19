@@ -81,12 +81,10 @@ section>div>span{
   background-color: #5858d442;
 }
 
-
 section div:nth-child(1) {
-  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/s/u/f/s-st10-vebnor-original-imagprjgsdzafrqb.jpeg?q=70");
+  background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/o/t/l-st1-vebnor-original-imagmsyxhvkrfjgz.jpeg?q=70");
   background-size: cover;
 }
-
 
 section div:nth-child(2) {
   background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/jean/n/r/2/-original-imaghsebtyzqzkyv.jpeg?q=70");
@@ -113,8 +111,6 @@ section div:nth-child(6) {
   background-size: cover;
 }
 
-
-
 @media (min-width:800px) and (max-width:900px) {
   section>div {
     margin: 20px;
@@ -133,7 +129,6 @@ section div:nth-child(6) {
     
   }
 }
-
 
 .footer-container {
   display: grid;

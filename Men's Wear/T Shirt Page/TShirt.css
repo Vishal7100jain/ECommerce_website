@@ -1,0 +1,20 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/kflftzk0-0/t-shirt/y/3/i/l-msp19pn010b-metronaut-original-imafwyf78bvf4rsy.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/jv5k2a80/t-shirt/e/f/h/m-msp19pn010b-metronaut-original-imafg49sb7z5ecx7.jpeg?q=70");
+    background-size: cover;
+}
+
+#mainPhoto {
+    height: 360px;
+    width: 330px;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/kflftzk0-0/t-shirt/y/3/i/l-msp19pn010b-metronaut-original-imafwyf78bvf4rsy.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}

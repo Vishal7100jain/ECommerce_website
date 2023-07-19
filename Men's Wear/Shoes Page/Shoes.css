@@ -1,0 +1,15 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/j/v/9/6-tm-12-6-trm-white-original-imagjqyzntcvcmhz.jpeg?q=90");
+    background-size: cover;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/7/2/m/6-tm-12-6-trm-white-original-imagjqyzz8z9jrgf.jpeg?q=90");
+    background-size: cover;
+    height: 360px;
+}
