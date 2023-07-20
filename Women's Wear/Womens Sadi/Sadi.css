@@ -1,0 +1,21 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/kids-apparel-combo/q/d/v/6-12-months-1816171819-lemon-fashion-original-imagra4wkbf6ycz9.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/kids-apparel-combo/t/y/8/6-12-months-1816171819-lemon-fashion-original-imagra4wws3h3hzz.jpeg?q=70");
+    background-size: cover;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/kids-apparel-combo/q/d/v/6-12-months-1816171819-lemon-fashion-original-imagra4wkbf6ycz9.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
