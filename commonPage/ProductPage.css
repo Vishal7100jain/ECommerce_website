@@ -26,6 +26,26 @@ body::-webkit-scrollbar-track {
     z-index: 999;
 }
 
+#KidsWearHeader {
+    display: grid;
+    justify-content: center;
+    background-color: #FFA41B;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 999;
+}
+
+#WomensWearHeader {
+    display: grid;
+    justify-content: center;
+    background-color: #FFA41B;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 999;
+}
+
 .nav-link {
     font-weight: bold;
     font-size: x-large;
