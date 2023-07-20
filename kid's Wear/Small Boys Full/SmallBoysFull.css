@@ -17,6 +17,5 @@
 .size {
     display: flex;
     justify-content: space-around;
-    width: 124%;
     margin-top: 10px;
 }

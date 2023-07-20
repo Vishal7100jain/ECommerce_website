@@ -33,7 +33,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-link:hover {
-    text-decoration: double underline rgb(108, 232, 108);
+    text-decoration: double underline #5A96E3;
     text-decoration-thickness: 3px;
     text-decoration-skip-ink: none;
 }
@@ -45,20 +45,22 @@ body::-webkit-scrollbar-track {
     border: 3px solid;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border: 3px solid black;
     font-size: large;
     font-weight: 900 !important;
     padding: 0px 0px;
 }
 
-.dropdown-item{
+.dropdown-item {
     border-bottom: 3px solid black;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
-.dropdown-item:hover{
-    background-color: rgb(108, 232, 108);
+.dropdown-item:hover {
+    background-color: #5A96E3;
     color: white;
 }
 
@@ -148,22 +150,22 @@ section {
     background-size: cover;
 }
 
-#SmallGirlsTopJeans{
+#SmallGirlsTopJeans {
     background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/kids-apparel-combo/m/b/2/9-12-months-kids-classic-woxaa-original-imagkf6yctehbeyx.jpeg?q=70");
     background-size: cover;
 }
 
-#TeenGirlsFrogs{
+#TeenGirlsFrogs {
     background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/kids-dress/6/o/n/3-4-years-gf0070-d-grn-fashion-dream-original-imaghh7zhdhpsjby.jpeg?q=70");
     background-size: cover;
 }
 
-#TeensBoysFull{
+#TeensBoysFull {
     background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/c/o/g/14-15-years-d4-maroon-perun-original-imaghkh8gyas3ct3.jpeg?q=70");
     background-size: cover;
 }
 
-#TeenGirlsTopJeans{
+#TeenGirlsTopJeans {
     background-image: url('https://rukminim2.flixcart.com/image/832/832/kw6pw280/kids-apparel-combo/4/m/f/9-10-years-lyset294-luyk-original-imag8xbbxngghgzc.jpeg?q=70');
     background-size: cover;
 }
