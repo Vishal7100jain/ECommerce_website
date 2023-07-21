@@ -1,0 +1,15 @@
+.Choice-one {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/watch/c/b/w/-original-imagnre8b8ydbrwe.jpeg?q=70");
+    background-size: cover;
+}
+
+.Choice-two {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/ksw4ccw0/watch/t/r/7/68007pp01-fastrack-women-original-imag6cu9d3rghmuu.jpeg?q=70");
+    background-size: cover;
+}
+
+#mainPhotodiv {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/watch/c/b/w/-original-imagnre8b8ydbrwe.jpeg?q=70");
+    background-size: cover;
+    height: 360px;
+}
