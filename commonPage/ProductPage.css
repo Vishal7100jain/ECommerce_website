@@ -116,26 +116,10 @@ main {
     cursor: pointer;
 }
 
-.Choice-one {
-    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/t/f/s-st10-vebnor-original-imagprjgqffut9wf.jpeg?q=70");
-    background-size: cover;
-}
-
-.Choice-two {
-    background-image: url("https://m.media-amazon.com/images/I/51n8mKDv21L._AC_SX466_.jpg");
-    background-size: cover;
-}
-
 #mainPhoto {
     height: 360px;
     width: 330px;
     padding: 5px;
-}
-
-#mainPhotodiv {
-    background-image: url("https://image.made-in-china.com/2f0j00FjRYyOfKkPke/Men-s-Shirt-Fashion-Cotton-Hanging-Dyed-Gradient-Button-Chic-Shirts.webp");
-    background-size: cover;
-    height: 360px;
 }
 
 @media (min-width :320px) and (max-width:416px) {
@@ -194,6 +178,7 @@ main {
 
 .details {
     padding: 10px 10px;
+    text-align: start;
 }
 
 .Product-title {
