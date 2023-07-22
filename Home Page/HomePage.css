@@ -25,7 +25,7 @@ header {
   z-index: 999;
 }
 
-.nav_menu{
+.nav_menu {
   display: flex;
   align-items: center;
 }
@@ -65,7 +65,7 @@ h6 {
   font-size: larger;
 }
 
-h6:hover{
+h6:hover {
   color: #212529;
 }
 
@@ -328,6 +328,7 @@ h3:hover {
   .mainBackground {
     height: 25vh;
   }
+
   #imagesection {
     margin-top: 0vh;
   }
