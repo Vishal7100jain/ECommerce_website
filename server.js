@@ -6,9 +6,15 @@ const port = 3001
 
 app.set("view engine", "ejs")
 
+app.use(express.static('views'))
+
 app.set("views", path.join(__dirname, "/views/Homepage"))
 
 app.get('/', (req,res)=>{
+    res.render("index.ejs")
+})
+
+app.get('/index.ejs', (req,res)=>{
     res.render("index.ejs")
 })
 
